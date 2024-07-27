@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-07-27T04:32:30.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="W8kcwQiRaYxvBqIlL1jI" version="21.6.8">
+  <diagram name="Página-1" id="77xqulv-YtDu010InBgS">
+    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vquzWzxViJbkrnSTZV2b-49" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="vquzWzxViJbkrnSTZV2b-63" target="vquzWzxViJbkrnSTZV2b-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="319.9999999999999" as="sourcePoint" />
+            <mxPoint x="520" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="280" />
+              <mxPoint x="510" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-51" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.812;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="vquzWzxViJbkrnSTZV2b-62" target="vquzWzxViJbkrnSTZV2b-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="640" y="430" as="sourcePoint" />
+            <mxPoint x="583.8199999999999" y="209.85000000000014" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="280" />
+              <mxPoint x="573" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ICommand&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Execute()&lt;br&gt;+ Undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="160" width="115" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-54" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vquzWzxViJbkrnSTZV2b-60" target="vquzWzxViJbkrnSTZV2b-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="285" y="319.9999999999999" as="sourcePoint" />
+            <mxPoint x="341" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="285" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-55" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="vquzWzxViJbkrnSTZV2b-61" target="vquzWzxViJbkrnSTZV2b-53">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="800" y="319.9999999999999" as="sourcePoint" />
+            <mxPoint x="978" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="228" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vquzWzxViJbkrnSTZV2b-57" target="vquzWzxViJbkrnSTZV2b-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-57" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CommandHandler&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- commandHistory: ICommand&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ UndoLastCommand()&lt;br&gt;+ ExecuteCommand()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-60" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CompleteToDoCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDo: ToDo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDoManager: ToDoManaher&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Execute()&lt;br&gt;+ Undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-61" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CompleteToDoCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDo: ToDo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- oldToDo: ToDo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDoManager: ToDoManaher&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Execute()&lt;br&gt;+ Undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="740" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-62" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DeleteToDoCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDo: ToDo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDoManager: ToDoManaher&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Execute()&lt;br&gt;+ Undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="550" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="vquzWzxViJbkrnSTZV2b-63" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;CreateToDoCommand&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDo: ToDo&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- toDoManager: ToDoManaher&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Execute()&lt;br&gt;+ Undo()&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
