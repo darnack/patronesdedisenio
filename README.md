@@ -15,3 +15,6 @@ Integrantes:
 3. Desarrollo de un Sistema de Gestión de Restaurantes
    Patrón escogido: Strategy
 
+5. Desarrollo de una sistema de gestion de habitaciones de un Hotel
+   Patrón escodigo: Decorator
+
