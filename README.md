@@ -9,6 +9,9 @@ Integrantes:
 - Yesid Giovanny Sanabria Orjuela
 - Fredy Alberto Gomez Ramirez
 
+1. Desarrollo de clonación de personajes para videojuego
+   Patrón escogido: Protoype
+
 2. Desarrollo de un sistema de mensajería
    Patrón escogido: Observer
 
