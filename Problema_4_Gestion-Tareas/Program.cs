@@ -6,7 +6,7 @@ var toDoManager = new ToDoManager();
 var commanHandler = new CommandHandler();
 
 var toDo1 = new ToDo("Hacer El Almuerzo");
-var toDo2 = new ToDo("Hacer El Teabajo Sociales");
+var toDo2 = new ToDo("Hacer El Trabajo Sociales");
 
 var createToDo1 = new CreateToDoCommand(toDo1, toDoManager);
 var createToDo2 = new CreateToDoCommand(toDo2, toDoManager);
