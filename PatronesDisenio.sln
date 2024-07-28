@@ -12,8 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problema_2_Mensajeria", "Problema_2_Mensajeria\Problema_2_Mensajeria.csproj", "{D67F0554-D16E-4731-97D0-D2DEB5ED9B16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problema_4_Gestion-Tareas", "Problema_4_Gestion-Tareas\Problema_4_Gestion-Tareas.csproj", "{1C9FD517-7886-4B2C-9D96-9C7EE6C56DA4}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problema_5_Decoracion_Habitacion_Hotel", "Problema_5_Decoracion_Habitacion_Hotel\Problema_5_Decoracion_Habitacion_Hotel.csproj", "{9C4B91C8-4727-4181-A1C5-B73155285772}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problema_4_Gestion-Tareas", "Problema_4_Gestion-Tareas\Problema_4_Gestion-Tareas.csproj", "{1C9FD517-7886-4B2C-9D96-9C7EE6C56DA4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Problema_5_Decoracion_Habitacion_Hotel", "Problema_5_Decoracion_Habitacion_Hotel\Problema_5_Decoracion_Habitacion_Hotel.csproj", "{9C4B91C8-4727-4181-A1C5-B73155285772}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Problema_1_Heroes", "Problema_1_Heroes\Problema_1_Heroes.csproj", "{A45A5287-7969-4930-A040-783178F606A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +28,6 @@ Global
 		{429DFFC5-8E6D-41CC-B95C-7E249A04164D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{429DFFC5-8E6D-41CC-B95C-7E249A04164D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{429DFFC5-8E6D-41CC-B95C-7E249A04164D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9C4B91C8-4727-4181-A1C5-B73155285772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9C4B91C8-4727-4181-A1C5-B73155285772}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9C4B91C8-4727-4181-A1C5-B73155285772}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9C4B91C8-4727-4181-A1C5-B73155285772}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D67F0554-D16E-4731-97D0-D2DEB5ED9B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D67F0554-D16E-4731-97D0-D2DEB5ED9B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D67F0554-D16E-4731-97D0-D2DEB5ED9B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -37,6 +36,14 @@ Global
 		{1C9FD517-7886-4B2C-9D96-9C7EE6C56DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C9FD517-7886-4B2C-9D96-9C7EE6C56DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C9FD517-7886-4B2C-9D96-9C7EE6C56DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4B91C8-4727-4181-A1C5-B73155285772}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4B91C8-4727-4181-A1C5-B73155285772}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4B91C8-4727-4181-A1C5-B73155285772}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4B91C8-4727-4181-A1C5-B73155285772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45A5287-7969-4930-A040-783178F606A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45A5287-7969-4930-A040-783178F606A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45A5287-7969-4930-A040-783178F606A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45A5287-7969-4930-A040-783178F606A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
