@@ -1,23 +1,24 @@
-﻿using Problema_2_Mensajeria.Dispositivos;
-using Problema_2_Mensajeria.Users;
+﻿using Problema_2_Mensajeria;
+using Problema_2_Mensajeria.Implementers;
 
 Console.WriteLine("Sistema de mensajería.");
 
-IDispositivo ObjComputador = new Dispositivo("Computador");
-IDispositivo ObjCelular = new Dispositivo("Celular");
-IDispositivo ObjAsistenteHogar = new Dispositivo("Asistente de hogar");
-
-var ObjUsuario1 = new Usuario("Daniel");
-ObjUsuario1.AgregarDispositivo(ObjComputador);
-ObjUsuario1.AgregarDispositivo(ObjCelular);
-
-var ObjUsuario2 = new Usuario("Jorge");
-ObjUsuario2.AgregarDispositivo(ObjAsistenteHogar);
+Device ObjComputador = new Device("Computador");
+Device ObjCelular = new Device("Celular");
+var ObjUsuario1 = new User("Daniel");
+ObjUsuario1.AddDevice(ObjComputador);
+ObjUsuario1.AddDevice(ObjCelular);
 
 
-ObjUsuario1.Notificar("El producto Alfa ya se encuentra disponible!");
-ObjUsuario2.Notificar("En 2 días se ha programado el mantenimiento de tu vehículo.");
+Device ObjAsistenteHogar = new Device("Asistente de hogar");
+var ObjUsuario2 = new User("Jorge");
+ObjUsuario2.AddDevice(ObjAsistenteHogar);
 
-ObjUsuario1.EliminarDispositivo(ObjComputador);
+var publisher = new Publisher();
 
+publisher.Subscribe(ObjUsuario1);
+publisher.Subscribe(ObjUsuario2);
+
+publisher.NotifySubscribers("El producto Alfa ya se encuentra disponible!");
+publisher.NotifySubscribers("En 2 días se ha programado el mantenimiento de tu vehículo.");
 
